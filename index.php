@@ -2,7 +2,7 @@
 
     class Movie {
         public $title;
-        public $genre;
+        public array $genre;
         public $imgPoster;
         public $infoMovie;
 
@@ -15,14 +15,14 @@
         }
 
         public function getInfo(){
-            return "Title: " . $this->title . "\n<br>"."\nGenere: " . $this->genre ."\n<br>"."\nInfo: " . $this->infoMovie ."\n<hr>";
+            return "Title: " . $this->title . "\n<br>"."\nGenere: " . implode(' / ', $this->genre) ."\n<br>"."\nInfo: " . $this->infoMovie ."\n<hr>";
         }
     }
 
     $ilPadrino = new Movie
     (
         'Il Padrino',
-        'Drammatico',
+        ['Drammatico','Giallo'],
         NULL,
         'La vita di Vito Corleone, impegnato nel difficile compito di tenere la famiglia unita e l\'impero mafioso compatto.'
     );
@@ -32,7 +32,7 @@
     $theIrishman = new Movie
     (
         'The Irishman',
-        'Giallo',
+        ['Drammatico','Giallo'],
         NULL,
         'La storia di Frank Sheeran, veterano di guerra e camionista, divenuto un sicario al soldo della malavita di Filadelfia e assoldato per uccidere il popolare sindacalista Jimmy Hoffa.'
     );
@@ -42,7 +42,7 @@
     $joker = new Movie
     (
         'Joker',
-        'Drammatico',
+        ['Drammatico','Giallo'],
         NULL,
         'Arthur Fleck, attore comico fallito ed ignorato dalla società, vaga per le strade di Gotham City iniziando una lenta e progressiva discesa negli abissi della follia, sino a divenire una delle peggiori menti criminali della storia.'
     );
