@@ -34,16 +34,6 @@
     
         $movies[] = $joker;
 
-        $queiBraviRagazzi = new Movie
-        (
-            'Quei Bravi Ragazzi',
-            ['Drammatico','Giallo'],
-            'https://pad.mymovies.it/filmclub/2006/03/273/locandina.jpg',
-            'Un americano di origini italo irlandesi fa carriera nella mafia newyorchese degli anni 50, ma la vita da gangster riserva delle sorprese non previste.'
-        );
-
-        $movies[] = $queiBraviRagazzi;
-
         $jsonData = json_encode($movies);
         $jsonFilePath = __DIR__ . '/../Database/movies.json';
         file_put_contents($jsonFilePath, $jsonData);
