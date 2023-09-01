@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Il Padrino",
+        "genre": [
+            "Drammatico",
+            "Giallo"
+        ],
+        "imgPoster": "https:\/\/pad.mymovies.it\/filmclub\/2002\/08\/056\/locandina.jpg",
+        "infoMovie": "La vita di Vito Corleone, impegnato nel difficile compito di tenere la famiglia unita e l'impero mafioso compatto."
+    },
+    {
+        "title": "The Irishman",
+        "genre": [
+            "Drammatico",
+            "Giallo"
+        ],
+        "imgPoster": "https:\/\/pad.mymovies.it\/filmclub\/2017\/05\/100\/locandina.jpg",
+        "infoMovie": "La storia di Frank Sheeran, veterano di guerra e camionista, divenuto un sicario al soldo della malavita di Filadelfia e assoldato per uccidere il popolare sindacalista Jimmy Hoffa."
+    },
+    {
+        "title": "Joker",
+        "genre": [
+            "Drammatico",
+            "Giallo"
+        ],
+        "imgPoster": "https:\/\/support.mondadoristore.it\/in\/speciali\/fantasticstore\/joker\/poster.jpg",
+        "infoMovie": "Arthur Fleck, attore comico fallito ed ignorato dalla societ\u00e0, vaga per le strade di Gotham City iniziando una lenta e progressiva discesa negli abissi della follia, sino a divenire una delle peggiori menti criminali della storia."
+    }
+]

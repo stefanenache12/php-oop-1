@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #234E70;
+    color: whitesmoke;
+}
+
+img {
+    max-width: 250px;
+    max-height: 300px;
+}
+
+.header {
+    padding: 25px 50px;
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+    margin-bottom: 25px;
+}
